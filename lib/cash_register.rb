@@ -15,7 +15,7 @@ class CashRegister
     @transactions << price
     i = quantity
     until i == 0 do
-      @items << title
+      @items << total
       i -= 1
     end
   end
